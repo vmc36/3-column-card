@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+}
+
+#painel {
+  width: 80%;
+  margin: 9rem 5rem;
+}
+#painel #wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#painel #wrapper #sedans {
+  height: 350px;
+  background-color: #e28527;
+  border: 5px solid transparent;
+  border-radius: 16px;
+}
+#painel #wrapper #suvs {
+  background-color: #065758;
+  border: 5px solid transparent;
+  border-radius: 16px;
+}
+#painel #wrapper #luxury {
+  background-color: #00403f;
+  border: 5px solid transparent;
+  border-radius: 16px;
+}

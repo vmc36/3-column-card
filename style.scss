@@ -1,0 +1,44 @@
+$orange: #e28527;
+$darksea:#065758;
+$dark-green:#00403f;
+$font-color:#fff;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #eee;
+}
+
+#painel {
+  
+    width: 80%;
+    margin: 9rem 5rem;
+  
+   
+
+    #wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        #sedans{
+            height: 350px;
+            background-color: $orange;
+            border: 5px solid transparent;
+            border-radius: 16px;
+        }
+        #suvs{
+            background-color: $darksea;
+            border: 5px solid transparent;
+            border-radius: 16px;
+        }
+        #luxury{
+            background-color: $dark-green;
+            border: 5px solid transparent;
+            border-radius: 16px;
+        }
+    }
+}
+
